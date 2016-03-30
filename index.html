@@ -4,45 +4,49 @@
 <head>
 
     <title>Unicorns Are Awesome</title>
-
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+ <style>
+ body{
+            padding: 60px; 
+            font-family: "Brush Script MT"; 
+            color: #92E1EE;
+            text-align: center;
+          
+            background-image: url('https://fs01.androidpit.info/a/12/24/unicorn-wallpapers-hd-122424-h900.jpg');
+        }
+        div{
+            box-shadow: 0px 0px 30px white;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto; 
+        }
+</style>
 </head>
 
+
 <body>
+  
 
     <div class="container" style="text-align:center; padding:100px;">
-        
+
         <div class="jumbotron">
-            
+
             <h1>Unicorns Are Awesome.</h1>
-            
+
             <p style="margin-top:40px;">And So Are You.</p>
-            
-           <p>So Click The Button. </p>
 
-<button onclick="displayprompt()">Click Here</button>
-
-<script>
-function displayprompt() {
-var name = prompt("Hi, what is your first name?");
-var name2 = prompt("Hi, what is your last name?");
-alert(name+" "+name2+""+", you are an amazing and beautiful unicorn, and don't let anyone tell you otherwise. Now get out there and show the world just how awesome you are!");
-   }     </script>
-    
+            <p>So Click The Button. </p>
+            <button onclick="countPeople()" class="wow bounceInUp">Click Here</button>
+<link rel="stylesheet" href="lib/animate.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="lib/wow.js">
+</script>
+<script src="lib/app.js"></script>
+            <input type="text" id="name" />
         </div>
-        
         <p>App By Kaitlyn Darrow</p>
-        
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    
 </body>
 
 </html>
